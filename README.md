@@ -1,3 +1,45 @@
+```
+LAB - Class 29
+Project: DjangoX
+Author: Mo'ath shakhatreh
+
+
+Setup
+env requirements:
+asgiref==3.6.0
+certifi==2022.12.7
+cffi==1.15.1
+charset-normalizer==3.0.1
+crispy-bootstrap5==0.7
+cryptography==39.0.1
+defusedxml==0.7.1
+Django==4.2
+django-allauth==0.52.0
+django-crispy-forms==2.0
+django_debug_toolbar==4.0.0
+gunicorn==20.1.0
+idna==3.4
+oauthlib==3.2.2
+psycopg==3.1.8
+psycopg-binary==3.1.8
+pycparser==2.21
+PyJWT==2.6.0
+python3-openid==3.2.0
+requests==2.30.0
+requests-oauthlib==1.3.1
+sqlparse==0.4.3
+typing_extensions==4.5.0
+urllib3==2.0.2
+whitenoise==6.4.0
+
+
+PORT - 8000
+
+How to initialize/run your application:
+python3 manage.py runserver
+```
+
+
 > A batteries-included Django starter project. To learn more try the books [Django for Beginners](https://djangoforbeginners.com), [Django for APIs](https://djangoforapis.com), and [Django for Professionals](https://djangoforprofessionals.com).
 
 
@@ -100,6 +142,8 @@ $ docker-compose exec web python manage.py createsuperuser
 - Update the [EMAIL_BACKEND](https://docs.djangoproject.com/en/4.0/topics/email/#module-django.core.mail) and connect with a mail provider.
 - Make the [admin more secure](https://opensource.com/article/18/1/10-tips-making-django-admin-more-secure).
 - `django-allauth` supports [social authentication](https://django-allauth.readthedocs.io/en/latest/providers.html) if you need that.
+
+m
 
 I cover all of these steps in my three books: [Django for Beginners](https://djangoforbeginners.com), [Django for APIs](https://djangoforapis.com), and [Django for Professionals](https://djangoforprofessionals.com).
 
